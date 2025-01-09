@@ -1,0 +1,58 @@
+.user-dashboard {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .form-container {
+    margin: 20px 0;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .update-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .update-btn:hover {
+    background-color: #218838;
+  }
+  
+  .logout-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .success-message {
+    color: #28a745;
+    margin: 10px 0;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin: 10px 0;
+  }
+  
