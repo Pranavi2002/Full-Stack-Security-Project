@@ -39,5 +39,5 @@ GET /users: (Admin) View all users.
 DELETE /users/{id}: (Admin) Delete a user.
 PUT /users/{id}: (User) Update their profile.
 
-## Summary:
+# Summary:
 This project provides a robust and secure user management system with authentication and role-based access control, ensuring a safe and efficient way to manage users and their data. It’s ideal for applications requiring multi-role access and secure user interactions.
