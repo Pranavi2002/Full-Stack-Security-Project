@@ -1,35 +1,92 @@
-## Full Stack Web Application with enhanced Security to manage user data:
+# 🛡️ Full Stack User Management System with Enhanced Security
 
-This enhanced Full Stack Web Application builds upon a User Management System with added security features such as authentication, role-based access control, and secure API communication using Spring Security and JWT. The application ensures that data is protected while providing distinct functionalities for Normal Users and Admin roles.
+This project is a full-stack web application designed to securely manage user data. It features authentication, role-based access control, and secure API communication using **Spring Security** and **JWT**. Users are divided into **Normal Users** and **Admins**, each with distinct functionality.
 
-The application uses Spring Boot for the backend and React.js for the frontend, with a MySQL database for storing user information.
+> ⚠️ **Project Structure**
+> - `main` branch: Contains the **React.js frontend**
+> - `master` branch: Contains the **Spring Boot backend**
+>
+> Please switch branches accordingly to explore the full project.
 
-## Frontend:
+---
 
-## Technologies:
+## 🧩 Tech Stack
 
-ReactJS: For building dynamic and responsive user interfaces.
-React Router: For handling navigation between different views.
-Axios: For making API requests to the backend.
-Bootstrap: For responsive and visually appealing UI design.
+### 🌐 Frontend (React.js) – `main` branch
+- **ReactJS**: Build dynamic UI components
+- **React Router**: Navigation and route protection
+- **Axios**: API communication with backend
+- **Bootstrap**: Responsive and modern UI design
 
-## Key Functionalities:
+### 🖥️ Backend (Spring Boot) – `master` branch
+- **Spring Boot**: RESTful API and core business logic
+- **Spring Security + JWT**: Authentication and authorization
+- **MySQL**: Persistent user data storage
 
-Authentication:
-Registration and login forms that integrate with the backend for secure JWT-based authentication.
-JWT tokens are stored in localStorage and used for authenticated API requests.
+---
 
-Role-Based Features:
-Normal Users: Access to personal dashboard to view and update their data.
-Admin: Access to the Admin Dashboard to view and delete users.
+## 🔐 Key Features
 
-Conditional Rendering:
-Components and routes are displayed based on the user’s role and authentication status.
+### ✅ Authentication
+- Secure login and registration
+- JWT-based authentication
+- Token stored in `localStorage` for protected requests
 
-Secure Routing:
-React Router ensures only authenticated users can access specific routes.
-Redirection to login if a user tries to access a protected route without authentication.
+### 🧑‍💼 Role-Based Access
+- **Normal Users**:
+  - Access personal dashboard
+  - View and update their own data
+- **Admins**:
+  - Access admin dashboard
+  - View and delete users
+  - Full CRUD operations on employee/user data
 
-User Management:
-Admins can manage users directly from the Admin Dashboard.
-CRUD operations for employee data integrated with the backend.
+### 🔒 Secure Frontend Routing
+- Protected routes using React Router
+- Conditional rendering based on authentication and roles
+- Redirection to login for unauthorized access attempts
+
+---
+
+## 🚀 How to Run the Application
+
+### 📦 Backend Setup (from `master` branch)
+1. Checkout the `master` branch:
+   ```bash
+   git checkout master
+
+2. Configure MySQL and update the application.properties file with your DB details.
+
+3. Run the backend using Maven:
+    ```bash
+    ./mvnw spring-boot:run
+
+🎨 Frontend Setup (from main branch)
+1. Stay on the main branch (default).
+2. Navigate to the project root (or frontend folder if created).
+3. Install dependencies and run the frontend:
+    ```bash
+    npm install
+    npm start
+
+📁 Project Structure
+css
+Copy
+Edit
+main (React Frontend)
+├── public/
+├── src/
+├── package.json
+└── ...
+
+master (Spring Boot Backend)
+├── src/
+├── pom.xml
+├── application.properties
+└── ...
+
+![Home Page](screenshots/home.png)
+![Register Page](screenshots/register.png)
+![Login Page](screenshots/login.png)
+![User Dashboard](screenshots/user-dashboard.png)
+![Admin Dashboard](screenshots/admin-dashboard.png)
