@@ -90,3 +90,5 @@ master (Spring Boot Backend)
 ![Login Page](screenshots/login.png)
 ![User Dashboard](screenshots/user-dashboard.png)
 ![Admin Dashboard](screenshots/admin-dashboard.png)
+
+For backend details and API documentation, see the [master branch README](https://github.com/Pranavi2002/Full-Stack-Security-Project/blob/master/README.md).
