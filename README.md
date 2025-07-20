@@ -70,9 +70,7 @@ This project is a full-stack web application designed to securely manage user da
     npm start
 
 📁 Project Structure
-css
-Copy
-Edit
+
 main (React Frontend)
 ├── public/
 ├── src/
