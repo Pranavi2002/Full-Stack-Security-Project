@@ -91,6 +91,6 @@ master (Spring Boot Backend)
 
 For backend details and API documentation, see the [master branch README](https://github.com/Pranavi2002/Full-Stack-Security-Project/blob/master/README.md).
 
-👩‍💻 Author
-Pranavi Kolipaka
+## 👩‍💻 Author
+### Pranavi Kolipaka
 Feel free to connect: [LinkedIn] (https://www.linkedin.com/in/vns-sai-pranavi-kolipaka-489601208/) | [GitHub] (https://github.com/Pranavi2002)
