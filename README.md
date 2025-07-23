@@ -52,25 +52,32 @@ This project is a full-stack web application designed to securely manage user da
 
 ### 📦 Backend Setup (from `master` branch)
 1. Checkout the `master` branch:
-   ```bash
+
+```bash
    git checkout master
+```
 
 2. Configure MySQL and update the application.properties file with your DB details.
 
 3. Run the backend using Maven:
-    ```bash
+```bash
     ./mvnw spring-boot:run
+```
 
-🎨 Frontend Setup (from main branch)
+### 🎨 Frontend Setup (from main branch)
 1. Stay on the main branch (default).
 2. Navigate to the project root (or frontend folder if created).
 3. Install dependencies and run the frontend:
-    ```bash
+```bash
     npm install
     npm start
+```
 
-📁 Project Structure
+---
 
+## 📁 Project Structure
+
+```
 main (React Frontend)
 ├── public/
 ├── src/
@@ -82,6 +89,11 @@ master (Spring Boot Backend)
 ├── pom.xml
 ├── application.properties
 └── ...
+```
+
+---
+
+## Screenshots
 
 ![Home Page](screenshots/home.png)
 ![Register Page](screenshots/register.png)
